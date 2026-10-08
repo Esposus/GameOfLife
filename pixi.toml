@@ -1,0 +1,11 @@
+[workspace]
+authors = ["Dmitry <adm713934yandex.ru>"]
+channels = ["https://conda.modular.com/max", "conda-forge"]
+name = "life"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+mojo = ">=1.1.0,<2"
